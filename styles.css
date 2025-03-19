@@ -1,8 +1,8 @@
-/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
-    background-color:rgb(227, 12, 235);
+    background-color: rgb(124, 123, 216);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -11,22 +11,22 @@ body {
 }
 
 .calculadora {
-    background-color: #e617a8;
+    background-color: #161115;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 320px;
     max-width: 100%;
 }
 
 h2 {
-    color: #4CAF50;
+    color: #fff;
     font-size: 1.5em;
 }
 
-.input {
-    width: 80%;
+input {
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     font-size: 1em;
@@ -45,16 +45,11 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 60px; /* Adicionando um tamanho fixo para os botões */
+    width: 70px;
 }
 
 .botoes button:hover {
     background-color: #45a049;
-}
-
-h3 {
-    font-size: 1.2em;
-    color: #333;
 }
 
 #resultado {
@@ -62,12 +57,13 @@ h3 {
     color: #4CAF50;
 }
 
-/* Adicionando uma margem extra para a última linha de botões */
-.botoes button:last-child {
-    width: 100%;
-    background-color: #FF5722; /* Cor diferenciada para o botão limpar */
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: white;
 }
 
-.botoes button:last-child:hover {
-    background-color: #e64a19; /* Cor mais escura para o botão limpar ao passar o mouse */
+.botoes button:last-child {
+    width: 80%;  
+    max-width: 200px; 
 }

@@ -8,20 +8,40 @@
 </head>
 <body>
     <div class="calculadora">
-        <h2>Calculadora Mathias</h2>
+        <h2>Calculadora </h2>
         <input type="number" id="num1" placeholder="Número 1">
         <input type="number" id="num2" placeholder="Número 2">
+        
         <div class="botoes">
             <button onclick="calcular('+')">+</button>
             <button onclick="calcular('-')">-</button>
             <button onclick="calcular('*')">×</button>
             <button onclick="calcular('/')">÷</button>
         </div>
+        
+        <div class="botoes">
+            <button onclick="calcular('^')">xⁿ</button>
+            <button onclick="calcular('sqrt')">√</button>
+            <button onclick="calcular('log')">log</button>
+        </div>
+
+        <div class="botoes">
+            <button onclick="calcular('sin')">sin</button>
+            <button onclick="calcular('cos')">cos</button>
+            <button onclick="calcular('tan')">tan</button>
+        </div>
+
         <div class="botoes">
             <button onclick="limpar()">Limpar</button>
         </div>
+        
         <h3>Resultado: <span id="resultado">0</span></h3>
     </div>
+
+    <footer>
+        <p>Desenvolvido Por Matheus Oliveira</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
