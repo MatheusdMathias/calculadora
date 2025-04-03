@@ -44,7 +44,7 @@ Live Server → Ferramenta para testar em tempo real.
 
 🔹 Implementação de operações avançadas (potenciação, raiz quadrada, porcentagem).🔹 Histórico de cálculos realizados.🔹 Melhorias na interface para acessibilidade.
 
-🎨 Layout e Interface
+🎨 Layout e Interface:
 
 A interface da calculadora foi desenvolvida com um design simples, utilizando uma paleta de cores que proporciona boa legibilidade e contraste. Abaixo está uma prévia do layout:
 
