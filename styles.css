@@ -67,3 +67,27 @@ footer {
     width: 80%;  
     max-width: 200px; 
 }
+
+@media (max-width: 400px) {
+    .calculadora {
+        padding: 15px;
+    }
+
+    .botoes button {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    input {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
