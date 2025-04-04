@@ -50,7 +50,7 @@ A interface da calculadora foi desenvolvida com um design simples, utilizando um
 
 🖼️ Imagem da interface (futuramente adicionar um print da calculadora rodando no navegador)
 
-🔧 Como Executar o Projeto Na Sua IDE:
+🔧 Como Executar o Projeto Na Sua IDE de Preferencia , eu utilizo o Visual Studio Code para melhor desempenho da linguagens utilizadas:
 
 1️⃣ Clone o repositório:
 
@@ -68,6 +68,6 @@ A interface da calculadora foi desenvolvida com um design simples, utilizando um
 
 Este projeto está licenciado sob a MIT License - Veja o arquivo LICENSE para mais detalhes.
 
-📢 Agradecimentos
+📢 Agradecimentos:
 
 Agradeço ao Prof. Edson Melo de Souza pela orientação neste projeto acadêmico e a todos os colegas que contribuíram com ideias e sugestões! 🙌
